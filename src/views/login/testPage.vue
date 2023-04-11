@@ -10,7 +10,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 // import * as THREE from "three";
 // import { Scene } from "three";
 // // import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
@@ -128,12 +128,12 @@
 // document.addEventListener("paste", readImg);
 
 export default {
-  // name: "Test",
+  name: "testPage",
   data() {
     return {};
   },
   methods: {}
-};
+}; 
 </script>
  
 <style lang="less">
