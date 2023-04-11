@@ -24,7 +24,7 @@ module.exports = {
             },
             {
                 type: 'append',
-                path: `./src/router/local.js`,
+                path: `./src/router/local.ts`,
                 pattern: /\[/,
                 templateFile: './__plop-templates__/router/router.hbs',
                 data: {
