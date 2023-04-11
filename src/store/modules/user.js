@@ -46,6 +46,7 @@ const actions = {
         commit('setAvatar', 'https://i.gtimg.cn/club/item/face/img/2/15922_100.gif')
         commit('setUsername', 'admin(未开启登录拦截)')
     },
+
     /**
      * @author chuzhixin 1204505056@qq.com
      * @description 登录
@@ -76,6 +77,7 @@ const actions = {
             message.error(`登录接口异常，未正确返回${tokenName}...`)
         }
     },
+
     /**
      * @author chuzhixin 1204505056@qq.com
      * @description 获取用户信息接口 这个接口非常非常重要，如果没有明确底层前逻辑禁止修改此方法，错误的修改可能造成整个框架无法正常使用
@@ -109,6 +111,7 @@ const actions = {
         await logout(state.accessToken)
         await dispatch('resetAll')
     },
+
     /**
      * @author chuzhixin 1204505056@qq.com
      * @description 重置accessToken、roles、ability、router等
@@ -121,6 +124,7 @@ const actions = {
         await dispatch('acl/setAbility', [], { root: true })
         removeAccessToken()
     },
+
     /**
      * @author chuzhixin 1204505056@qq.com
      * @description 设置token

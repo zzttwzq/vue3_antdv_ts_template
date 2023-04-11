@@ -5,10 +5,10 @@
       <a-col :xs="24" :sm="24" :md="12" :lg="10" :xl="6">
         <div class="login-container-form">
           <div class="login-container-hello">hello!</div>
-          <div class="login-container-title">欢迎来到 {{ title }}</div>
+          <div class="login-container-title"> --{{ $t('back') }}-- 欢迎来到 {{ title }}</div>
           <a-form :model="form" @submit="handleSubmit" @submit.prevent>
             <a-form-item>
-              <a-input v-model:value="form.username" placeholder="Username">
+              <a-input v-model="form.username" placeholder="Username">
                 <template v-slot:prefix>
                   <UserOutlined style="color: rgba(0, 0, 0, 0.25)" />
                 </template>
@@ -16,7 +16,7 @@
             </a-form-item>
             <a-form-item>
               <a-input
-                v-model:value="form.password"
+                v-model="form.password"
                 type="password"
                 placeholder="Password"
               >
@@ -65,7 +65,7 @@
         redirect: undefined,
         dependencies: dependencies,
         devDependencies: devDependencies,
-      }
+      }  
     },
     computed: {
       ...mapGetters({
@@ -82,11 +82,9 @@
       },
     },
     mounted() {
+      console.log(">>> login mounted");
       this.form.username = 'admin'
       this.form.password = '123456'
-      /*  setTimeout(() => {
-        this.handleSubmit()
-      }, 3000) */
     },
     methods: {
       ...mapActions({
@@ -98,8 +96,14 @@
           : this.redirect
       },
       async handleSubmit() {
-        await this.login(this.form)
-        await this.$router.push(this.handleRoute())
+
+        console.log('>>>> asdfasdf');
+        console.log('>>>> 写入各种localStorage');
+
+        window.location.href = "https://test.nearhub.cc/draw_page";
+        
+        // await this.login(this.form)
+        // await this.$router.push(this.handleRoute())
       },
     },
   }

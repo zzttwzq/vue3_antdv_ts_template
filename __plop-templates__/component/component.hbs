@@ -1,0 +1,26 @@
+<template>
+  <div @click="handleClick" class="app-container">{{name}}Page \{{ $t("test") }}</div>
+</template>
+
+<script>
+import { defineComponent, onBeforeMount, reactive, toRefs } from "vue";
+
+export default defineComponent({
+  setup() {
+    // 数据和事件
+    const dataMap = reactive({
+      activeName: "directly",
+      handleClick: () => {
+        console.log("im being click");
+      },
+    });
+
+    // 
+    onBeforeMount(() => {
+      console.log("{{name}}Page im onBeforeMount");
+    })
+
+    return { ...toRefs(dataMap) };
+  },
+});
+</script>

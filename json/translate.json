@@ -1,0 +1,1277 @@
+{
+  "服务蓝图": {
+    "服务蓝图_26": {
+      "zh_CN": "后台活动"
+    },
+    "服务蓝图_27": {
+      "zh_CN": "前台活动"
+    },
+    "服务蓝图_28": {
+      "zh_CN": "用户行为"
+    },
+    "服务蓝图_33": {
+      "zh_CN": "成本结构",
+      "en_US": "Front desk activity"
+    },
+    "服务蓝图_34": {
+      "zh_CN": "支持过程",
+      "en_US": "Service Blueprint"
+    },
+    "服务蓝图_35": {
+      "zh_CN": "Service Blueprint（服务蓝图）",
+      "en_US": "Support process"
+    },
+    "服务蓝图_39": {
+      "zh_CN": "服务蓝图帮助企业了解服务是如何被公司实现和客户使用的，有助于识别痛点、优化复杂的交互，并最终为企业节省资源和改善客户体验。\n\n服务蓝图应始终与业务目标保持一致，服务蓝图一般包含以下关键元素:\n\n客户行为：客户在与服务交互以达到特定目标时执行的步骤、选择、活动和交互。客户行动来源于研究或客户旅程图。\n\n前台活动：用户可见的操作，可以是人对人或人对计算机的动作。\n\n后台活动：用户不可见的后台发生的步骤和活动。这些操作可以由后台工作人员执行，也可以由前台的工作人员执行。\n\n支持过程：支持员工交付服务的内部步骤和交互。\n\n服务蓝图的最后一层是证据，它是由任何在蓝图中与之交换的道具和场所组成的。证据可以涉及前台和后台的过程和行动。\n\n\n",
+      "en_US": "Service blueprints help businesses understand how services are implemented by the company and used by customers, helping to identify pain points, optimize complex interactions, and ultimately save resources and improve customer experience for the business.\n\nService blueprints should always be aligned with business goals and typically contain the following key elements:\n\nCustomer Behavior: The steps, choices, activities, and interactions that customers perform when interacting with a service to achieve specific goals. Customer actions come from research or customer journey maps.\n\nForeground activity: User-visible actions, which can be human-to-human or human-to-computer actions.\n\nBackground Activities: Steps and activities that occur in the background that are not visible to the user. These operations can be performed by back-office workers or by front-office workers.\n\nSupport Process: The internal steps and interactions that support employee delivery of services.\n\nThe last layer of a service blueprint is evidence, which consists of any props and places that are exchanged with it in the blueprint. Evidence can relate to front- and back-office processes and actions.\n"
+    },
+    "服务蓝图_43": {
+      "zh_CN": "使用说明"
+    },
+    "服务蓝图_45": {
+      "zh_CN": "User's Guide"
+    }
+  },
+  "用户画像-1": {
+    "用户画像-1_10": {
+      "zh_CN": "技能"
+    },
+    "用户画像-1_11": {
+      "zh_CN": "个性"
+    },
+    "用户画像-1_13": {
+      "zh_CN": "Customer Persona（用户画像）",
+      "en_US": "Personality"
+    },
+    "用户画像-1_14": {
+      "zh_CN": "角色"
+    },
+    "用户画像-1_21": {
+      "zh_CN": "兴趣",
+      "en_US": "Role"
+    },
+    "用户画像-1_22": {
+      "zh_CN": "科技领悟力",
+      "en_US": "Technology \ncomprehension"
+    },
+    "用户画像-1_23": {
+      "zh_CN": "使用产品的理由",
+      "en_US": "Reason for buying the \nproduct"
+    },
+    "用户画像-1_24": {
+      "zh_CN": "购买产品的理由",
+      "en_US": "Personas (personas) are virtual but realistic descriptions of typical/target users of a product. Based on various behavior data left by users on the Internet, user tag sets are generated through data processing and analysis. User portraits are individual user portraits derived from these tag sets, which are used to highlight specific details and important characteristics.\n\n1- Make a preliminary understanding of a large number of users through user data extraction and analysis and questionnaire survey. Generally, a basic user tag system will be established through user attributes and behavior data.\n\n2- Then, according to the differences, users are divided into different types, and typical characters are extracted from each type to form a concrete typical user portrait.\n\nA product is usually designed with 3 to 6 roles representing all user groups.\n\n\n"
+    },
+    "用户画像-1_26": {
+      "zh_CN": "用户画像（人物角色）是对产品典型/目标用户的虚拟但现实的描述。基于用户在互联网上留下的种种行为数据，通过数据加工分析产生用户标签集，用户画像就是从这些标签集中派生出来的单个用户画像，用于突出显示特定细节和重要特性。\n\n1- 通过用户数据提取分析和问卷调研方式，对海量用户做一个初步的了解，一般会通过用户属性和行为数据，建立基础的用户标签体系\n\n2- 然后根据差异，将用户分为不同的类型，每种类型中抽取出典型人物角色，就形成了一个具象的典型用户画像。\n\n一个产品通常会设计3～6个角色代表所有的用户群体。\n\n\n",
+      "en_US": "Reason for using the \nproduct"
+    },
+    "用户画像-1_28": {
+      "zh_CN": "User's Guide",
+      "en_US": "User's Guide"
+    },
+    "用户画像-1_29": {
+      "zh_CN": "使用指南"
+    }
+  },
+  "用户画像-2(1)": {
+    "用户画像-2(1)_2": {
+      "zh_CN": "需求/挑战"
+    },
+    "用户画像-2(1)_3": {
+      "zh_CN": "目标/动机"
+    },
+    "用户画像-2(1)_4": {
+      "zh_CN": "如何协助？"
+    },
+    "用户画像-2(1)_5": {
+      "zh_CN": "态度"
+    },
+    "用户画像-2(1)_6": {
+      "zh_CN": "行为"
+    },
+    "用户画像-2(1)_24": {
+      "zh_CN": "人口统计"
+    },
+    "用户画像-2(1)_25": {
+      "zh_CN": "角色特性代表行为"
+    },
+    "用户画像-2(1)_26": {
+      "zh_CN": "职位/描述，年龄"
+    },
+    "用户画像-2(1)_27": {
+      "zh_CN": "角色名字",
+      "en_US": "Manner"
+    },
+    "用户画像-2(1)_29": {
+      "zh_CN": "v",
+      "en_US": "Goal/Motivation"
+    },
+    "用户画像-2(1)_31": {
+      "zh_CN": "用户画像",
+      "en_US": "When you start designing a product or service, use this template to really understand the design object"
+    },
+    "用户画像-2(1)_32": {
+      "zh_CN": "在开始设计产品或服务时，使用此模板真正了解设计对象",
+      "en_US": "Create main characters"
+    },
+    "用户画像-2(1)_33": {
+      "zh_CN": "创建主要角色",
+      "en_US": "Behavior"
+    },
+    "用户画像-2(1)_35": {
+      "zh_CN": "1",
+      "en_US": "Depending on how you plan to use these personas (marketing, SaaS, etc.), you may need to add more categories to the \npersonas or replace some of the categories specified below."
+    },
+    "用户画像-2(1)_36": {
+      "zh_CN": "2",
+      "en_US": "Instructions for use:"
+    },
+    "用户画像-2(1)_38": {
+      "zh_CN": "创建次要角色"
+    },
+    "用户画像-2(1)_39": {
+      "zh_CN": "根据您计划使用这些角色的方式（营销、SaaS等），你可能需要向角色中添加更多类别或替换以下指定的某些类别。",
+      "en_US": "1"
+    },
+    "用户画像-2(1)_40": {
+      "zh_CN": "\n"
+    },
+    "用户画像-2(1)_41": {
+      "zh_CN": "使用说明：",
+      "en_US": "2"
+    },
+    "用户画像-2(1)_42": {
+      "zh_CN": "主要角色是您的产品或服务的目标用户。TA们的需求、痛点和动机影响您的设计。\n专业提示：给您的人物角色一些个性，使其尽可能“人性化”。",
+      "en_US": "Create secondary characters"
+    },
+    "用户画像-2(1)_43": {
+      "zh_CN": "次要角色可能代表可能不是您理想用户，但也可能使用您的产品或服务的人群。\n他们的大多数核心需求可能会反应在您的主要角色中，但是考虑“次要”需求也很重要。",
+      "en_US": "Secondary personas might represent people who might not be your ideal users, but who might also use your product or service.\nMost of their core needs will likely be reflected in your primary role, but it's also important to consider \"secondary\" needs."
+    },
+    "用户画像-2(1)_44": {
+      "zh_CN": "添加照片",
+      "en_US": "\n"
+    },
+    "用户画像-2(1)_52": {
+      "zh_CN": "添加照片",
+      "en_US": "Character traits represent behavior"
+    },
+    "用户画像-2(1)_54": {
+      "zh_CN": "v"
+    },
+    "用户画像-2(1)_56": {
+      "zh_CN": "角色名字",
+      "en_US": "Character name"
+    },
+    "用户画像-2(1)_57": {
+      "zh_CN": "职位/描述，年龄",
+      "en_US": "Job title/Description, Age"
+    },
+    "用户画像-2(1)_58": {
+      "zh_CN": "角色特性代表行为"
+    },
+    "用户画像-2(1)_59": {
+      "zh_CN": "人口统计"
+    },
+    "用户画像-2(1)_77": {
+      "zh_CN": "行为"
+    },
+    "用户画像-2(1)_78": {
+      "zh_CN": "态度"
+    },
+    "用户画像-2(1)_79": {
+      "zh_CN": "如何协助？",
+      "en_US": "Manner"
+    },
+    "用户画像-2(1)_80": {
+      "zh_CN": "目标/动机",
+      "en_US": "How to help?"
+    },
+    "用户画像-2(1)_81": {
+      "zh_CN": "需求/挑战",
+      "en_US": "Needs/Challenges"
+    },
+    "用户画像-2(1)_84": {
+      "zh_CN": "需求/挑战"
+    },
+    "用户画像-2(1)_85": {
+      "zh_CN": "目标/动机"
+    },
+    "用户画像-2(1)_86": {
+      "zh_CN": "如何协助？"
+    },
+    "用户画像-2(1)_87": {
+      "zh_CN": "态度"
+    },
+    "用户画像-2(1)_88": {
+      "zh_CN": "行为"
+    }
+  },
+  "用户画像-2(2)": {
+    "用户画像-2(2)_6": {
+      "zh_CN": "人口统计",
+      "en_US": "Needs/Challenges"
+    },
+    "用户画像-2(2)_7": {
+      "zh_CN": "角色特性代表行为",
+      "en_US": "Goal/Motivation"
+    },
+    "用户画像-2(2)_8": {
+      "zh_CN": "职位/描述，年龄",
+      "en_US": "Add photos"
+    },
+    "用户画像-2(2)_9": {
+      "zh_CN": "角色名字",
+      "en_US": "Needs/Challenges"
+    },
+    "用户画像-2(2)_11": {
+      "zh_CN": "v",
+      "en_US": "Demographics"
+    },
+    "用户画像-2(2)_13": {
+      "zh_CN": "添加照片"
+    },
+    "用户画像-2(2)_15": {
+      "zh_CN": "需求/挑战"
+    },
+    "用户画像-2(2)_16": {
+      "zh_CN": "目标/动机"
+    },
+    "用户画像-2(2)_17": {
+      "zh_CN": "如何协助？"
+    },
+    "用户画像-2(2)_18": {
+      "zh_CN": "态度",
+      "en_US": "Manner"
+    },
+    "用户画像-2(2)_19": {
+      "zh_CN": "行为",
+      "en_US": "How to help?"
+    },
+    "用户画像-2(2)_37": {
+      "zh_CN": "人口统计",
+      "en_US": "Character traits represent behavior"
+    },
+    "用户画像-2(2)_38": {
+      "zh_CN": "角色特性代表行为"
+    },
+    "用户画像-2(2)_39": {
+      "zh_CN": "职位/描述，年龄"
+    },
+    "用户画像-2(2)_40": {
+      "zh_CN": "角色名字",
+      "en_US": "v"
+    },
+    "用户画像-2(2)_42": {
+      "zh_CN": "v"
+    },
+    "用户画像-2(2)_44": {
+      "zh_CN": "添加照片",
+      "en_US": "Character traits represent behavior"
+    },
+    "用户画像-2(2)_45": {
+      "zh_CN": "添加照片",
+      "en_US": "Demographics"
+    },
+    "用户画像-2(2)_47": {
+      "zh_CN": "v"
+    },
+    "用户画像-2(2)_49": {
+      "zh_CN": "角色名字"
+    },
+    "用户画像-2(2)_50": {
+      "zh_CN": "职位/描述，年龄",
+      "en_US": "Add photos"
+    },
+    "用户画像-2(2)_51": {
+      "zh_CN": "角色特性代表行为",
+      "en_US": "Job title/Description, Age"
+    },
+    "用户画像-2(2)_52": {
+      "zh_CN": "人口统计"
+    },
+    "用户画像-2(2)_70": {
+      "zh_CN": "行为"
+    },
+    "用户画像-2(2)_71": {
+      "zh_CN": "态度"
+    },
+    "用户画像-2(2)_72": {
+      "zh_CN": "如何协助？"
+    },
+    "用户画像-2(2)_73": {
+      "zh_CN": "目标/动机"
+    },
+    "用户画像-2(2)_74": {
+      "zh_CN": "需求/挑战"
+    },
+    "用户画像-2(2)_76": {
+      "zh_CN": "利用这个空间进行头脑风暴或整理研究。\n确认角色具有哪些特性后，您可以将其移动到对应的分类中。"
+    }
+  },
+  "移情图": {
+    "移情图_1": {
+      "zh_CN": "感受和想法"
+    },
+    "移情图_3": {
+      "zh_CN": "Empathy Map（移情图）"
+    },
+    "移情图_8": {
+      "zh_CN": "说了什么，做了什么？",
+      "en_US": "Feelings and thoughts"
+    },
+    "移情图_9": {
+      "zh_CN": "听到了什么",
+      "en_US": "What was said, what was done?"
+    },
+    "移情图_10": {
+      "zh_CN": "看到了什么"
+    },
+    "移情图_11": {
+      "zh_CN": "用户痛点"
+    },
+    "移情图_12": {
+      "zh_CN": "用户目标"
+    },
+    "移情图_20": {
+      "zh_CN": "移情图是UX设计过程中的重要素材，通过可视化用户的态度和行为，帮助设计师和非设计师的团队成员深入了解特定类型用户，以创建对用户需求的共享理解，并帮助决策。\n传统的移情图被分为4个象限：\n\n「说了什么」：用户在采访或其他可用性研究中大声说出的内容\n「想了什么」：用户在整个体验中的想法\n「做了什么」：用户采取的操作\n「觉得怎样」：用户的情绪状态\n\n\n\n\n\n1- 基于用户画像，开始人物角色移情映射，通过收集的有关人物角色的材料和研究，分别为移情图的每个象限生成标签，并将相似的标签聚集在同一象限。\n\n2- 除了这4个象限之外，还可以增加两个部分：用户痛点和用户目标。前者概括了用户所碰到的主要的困难和障碍，后者是用户希望达成的目标。\n\n\n"
+    },
+    "移情图_21": {
+      "zh_CN": "使用说明",
+      "en_US": "What did you see"
+    },
+    "移情图_23": {
+      "zh_CN": "v"
+    },
+    "移情图_24": {
+      "zh_CN": "User's Guide",
+      "en_US": "User's Guide"
+    }
+  },
+  "周计划": {
+    "周计划_9": {
+      "zh_CN": "周计划/ Weekly Planner"
+    },
+    "周计划_10": {
+      "zh_CN": "周日"
+    },
+    "周计划_11": {
+      "zh_CN": "周六"
+    },
+    "周计划_12": {
+      "zh_CN": "周五"
+    },
+    "周计划_13": {
+      "zh_CN": "周四"
+    },
+    "周计划_14": {
+      "zh_CN": "周三"
+    },
+    "周计划_15": {
+      "zh_CN": "周二"
+    },
+    "周计划_16": {
+      "zh_CN": "周一"
+    },
+    "周计划_37": {
+      "zh_CN": "想快速组织团队每周日程计划，不妨试试周计划模板，使用便利贴和图片\n打造一目了然的计划日程。\n\n\n",
+      "en_US": "To quickly organize your team's weekly schedule, try the weekly planner template, \nusing sticky notes and images\nCreate clear schedules.\n\n\n"
+    }
+  },
+  "回顾": {
+    "回顾_5": {
+      "zh_CN": "好的是什么？",
+      "en_US": "What is bad?"
+    },
+    "回顾_6": {
+      "zh_CN": "不好的是什么？"
+    },
+    "回顾_7": {
+      "zh_CN": "如何做？"
+    },
+    "回顾_8": {
+      "zh_CN": "想法&建议"
+    },
+    "回顾_9": {
+      "zh_CN": "回顾/ Retrospective"
+    },
+    "回顾_26": {
+      "zh_CN": "缺少的"
+    },
+    "回顾_27": {
+      "zh_CN": "渴望的"
+    },
+    "回顾_28": {
+      "zh_CN": "学到的"
+    },
+    "回顾_29": {
+      "zh_CN": "喜欢的"
+    },
+    "回顾_35": {
+      "zh_CN": "团队喜欢的是什么？"
+    },
+    "回顾_36": {
+      "zh_CN": "团队学到了什么？"
+    },
+    "回顾_37": {
+      "zh_CN": "团队缺少的是什么？",
+      "en_US": "What did the team learn?"
+    },
+    "回顾_38": {
+      "zh_CN": "团队渴望的是什么？",
+      "en_US": "What is the team missing?"
+    },
+    "回顾_41": {
+      "zh_CN": "团队：",
+      "en_US": "Stop"
+    },
+    "回顾_42": {
+      "zh_CN": "日期：",
+      "en_US": "Start"
+    },
+    "回顾_43": {
+      "zh_CN": "日期：",
+      "en_US": "What does the team like?"
+    },
+    "回顾_44": {
+      "zh_CN": "团队：",
+      "en_US": "Team:"
+    },
+    "回顾_47": {
+      "zh_CN": "团队应该做什么？"
+    },
+    "回顾_48": {
+      "zh_CN": "团队应该停止做什么？",
+      "en_US": "What should the team do?"
+    },
+    "回顾_49": {
+      "zh_CN": "团队应该开始做什么？",
+      "en_US": "Team:"
+    },
+    "回顾_52": {
+      "zh_CN": "开始"
+    },
+    "回顾_53": {
+      "zh_CN": "停止"
+    },
+    "回顾_54": {
+      "zh_CN": "继续",
+      "en_US": "What should the team start doing?"
+    },
+    "回顾_63": {
+      "zh_CN": "回顾复盘是团队成长不可缺少的重要环节，为团队提供了一个空间来反思和讨论往期工作进而得到改善。\n分析成功和失败的根本原因，以提高敏捷实践的生产力。\n\n\n",
+      "en_US": "Retrospective review is an indispensable and important part of team growth, providing a space for \nthe team to reflect and discuss past work and improve it.\nAnalyze the root causes of success and failure to increase the productivity of agile practices.\n\n\n"
+    },
+    "回顾_64": {
+      "zh_CN": "在项目结束时使用回顾模板了解你的团队喜欢什么、学到什么、缺少什么和渴望什么。\n",
+      "en_US": "Use the retrospective template at the end of a project to understand what your team liked, learned, \nlacked, and longed for.\n"
+    },
+    "回顾_65": {
+      "zh_CN": "使用以行动为导向的回顾模板提高团队绩效，获得团队想要开始、停止和继续的工作反馈。\n",
+      "en_US": "Improve team performance with action-oriented retrospective templates and get feedback on work the \nteam wants to start, stop, and continue.\n"
+    }
+  },
+  "工作墙": {
+    "工作墙_6": {
+      "zh_CN": "工作墙",
+      "en_US": "Project name"
+    },
+    "工作墙_7": {
+      "zh_CN": "在项目中使用此模板以了解团队的最新进展",
+      "en_US": "Work wall"
+    },
+    "工作墙_8": {
+      "zh_CN": "轻松跟踪团队进度并可视化每个人的任务",
+      "en_US": "To Do"
+    },
+    "工作墙_9": {
+      "zh_CN": "待办事项"
+    },
+    "工作墙_10": {
+      "zh_CN": "进行中"
+    },
+    "工作墙_11": {
+      "zh_CN": "已完成"
+    },
+    "工作墙_12": {
+      "zh_CN": "项目名称"
+    },
+    "工作墙_18": {
+      "zh_CN": "成员 1"
+    },
+    "工作墙_19": {
+      "zh_CN": "成员 2",
+      "en_US": "member 4"
+    },
+    "工作墙_20": {
+      "zh_CN": "成员 3"
+    },
+    "工作墙_21": {
+      "zh_CN": "成员 4"
+    },
+    "工作墙_22": {
+      "zh_CN": "成员 5"
+    },
+    "工作墙_28": {
+      "zh_CN": "使用指南",
+      "en_US": "Step 1\nBefore starting, add the project name or team name in [Project Name]. Next, assign \na team member to each post-it note, which is represented by the color of the post-it note.\n\n\n\nStep 2\n1. Write the tasks that must be completed in the project in the [To-Do] column in the \nform of post-it notes. These tasks can be tasks that need to be completed within a \nspecific time period of the project.\n2. Prioritize the tasks in the To-Do column. Important tasks should be placed at the \ntop and unimportant tasks at the bottom.\n3. Match member colors for each post-it task to reflect who is responsible for \ncompleting it.\n\n\n\nStep 3\nDetermine with the team how often to confirm the progress of project tasks, which \ncan be daily, weekly, bi-weekly, etc.\nMove the currently processing task to [In Progress], and move the completed task to [Completed].\nEvery time you check the progress of the project, check each [In Progress] task and make sure that the tasks in the [To Do List] are prioritized according to the actual \nrequirements.\nCheck if tasks are blocked and assign new tasks from the To-Do list.\n\n"
+    },
+    "工作墙_29": {
+      "zh_CN": "User's Guide"
+    },
+    "工作墙_31": {
+      "zh_CN": "Step 1\n在开始之前，在【项目名称】中添加项目名称或团队名称。接着，为每个便利贴分配一个团队成员，便利贴的颜色即代表成员。\n\n\n\nStep 2\n1. 把项目必需完成的任务以便利贴的形式写在【待办事项】栏中。这些任务可以是项目特定时间内需要完成的任务。\n2. 将【待办事项】栏中的任务进行优先级排序。重要的任务应该放在最上面，不重要的任务放在最下面。\n3.为每个便利贴任务匹配成员色，以反映谁负责完成它。\n\n\n\nStep 3\n与团队确定多久确认一次项目任务进度，可以是每天、每周、每两周等。\n将当前正在处理的任务移动到【进行中】，将已完成的任务移动到【已完成】。\n每次核查项目进度时，检查每一个【进行中】的任务，并确保【待办事项】中的任务优先级排序符合实际要求。\n确认任务执行是否遇到阻碍，并从【待办事项】中分配新的任务。\n\n"
+    }
+  },
+  "每日站立会": {
+    "每日站立会_26": {
+      "zh_CN": "职员名称"
+    },
+    "每日站立会_27": {
+      "zh_CN": "职员名称"
+    },
+    "每日站立会_28": {
+      "zh_CN": "职员名称",
+      "en_US": "Staff name"
+    },
+    "每日站立会_29": {
+      "zh_CN": "职员名称",
+      "en_US": "Staff name"
+    },
+    "每日站立会_30": {
+      "zh_CN": "职员名称",
+      "en_US": "Staff name"
+    },
+    "每日站立会_34": {
+      "zh_CN": "每日站立会/ Daily Standup",
+      "en_US": "Staff name"
+    },
+    "每日站立会_37": {
+      "zh_CN": "职员名称",
+      "en_US": "Step1 \nConfirm the time and location of the stand-up meeting\n\n\n\nStep2\nPrepare a short agenda and control the daily stand-up time to 10-15 minutes\n\n\n\nStep3 \nTeam members can answer 3 questions via post-it notes:\n1. Before this meeting, what was yesterday's work summary?\n2. After this meeting, what is the work arrangement for today?\n3. Am I currently stuck at work and need help?\n"
+    },
+    "每日站立会_38": {
+      "zh_CN": "昨日工作总结",
+      "en_US": "Are there any obstacles to work?"
+    },
+    "每日站立会_39": {
+      "zh_CN": "今日工作安排",
+      "en_US": "Summary of yesterday's work"
+    },
+    "每日站立会_40": {
+      "zh_CN": "是否存在工作阻碍"
+    },
+    "每日站立会_41": {
+      "zh_CN": "Step1 \n确认站立会议的时间和地点\n\n\n\nStep2\n准备简短议程，每日站立会时长控制在10-15分钟\n\n\n\nStep3 \n团队成员可以通过便利贴回答3个问题：\n1.本次会议之前，昨日工作总结？\n2.本次会议之后，今日工作安排？\n3.目前我是否遇到工作阻碍，需要帮助？\n"
+    },
+    "每日站立会_43": {
+      "zh_CN": "每日站立会是 Scrum 实践中最具代表性的一个形式，站立会的目标是促进信息在\n团队内的共享和透明，敏捷团队可以使用模板来协调日常工作量，并确保每个团队\n成员都意识到工作障碍。\n\n\n",
+      "en_US": "The daily standup is the most representative form of Scrum practice. The \ngoal of the standup is to promote theSharing and transparency within teams, \nagile teams can use templates to coordinate daily workloads and ensure that \neach team Members are aware of barriers to work.\n\n\n"
+    },
+    "每日站立会_44": {
+      "zh_CN": "使用指南",
+      "en_US": "User's Guide"
+    },
+    "每日站立会_45": {
+      "zh_CN": "User's Guide"
+    }
+  },
+  "5 Whys": {
+    "5 Whys_2": {
+      "zh_CN": "问题声明",
+      "en_US": "Your problem"
+    },
+    "5 Whys_3": {
+      "zh_CN": "你的问题"
+    },
+    "5 Whys_4": {
+      "zh_CN": "你的问题",
+      "en_US": "Your problem"
+    },
+    "5 Whys_6": {
+      "zh_CN": "为什么？",
+      "en_US": "Why?"
+    },
+    "5 Whys_9": {
+      "zh_CN": "你的问题"
+    },
+    "5 Whys_12": {
+      "zh_CN": "你的问题",
+      "en_US": "Your problem"
+    },
+    "5 Whys_13": {
+      "zh_CN": "你的问题"
+    },
+    "5 Whys_17": {
+      "zh_CN": "你的问题"
+    },
+    "5 Whys_19": {
+      "zh_CN": "问题根源",
+      "en_US": "Your problem"
+    },
+    "5 Whys_20": {
+      "zh_CN": "根本原因"
+    },
+    "5 Whys_23": {
+      "zh_CN": "深入研究以发现问题的根本原因",
+      "en_US": "Why?"
+    },
+    "5 Whys_24": {
+      "zh_CN": "使用这个模板从根本上解决问题",
+      "en_US": "Drill down to discover the root cause of the problem"
+    },
+    "5 Whys_25": {
+      "zh_CN": "5 Whys",
+      "en_US": "Use this template to fundamentally solve the problem"
+    },
+    "5 Whys_26": {
+      "zh_CN": "为什么？",
+      "en_US": "Root of the problem"
+    },
+    "5 Whys_27": {
+      "zh_CN": "为什么？",
+      "en_US": "Why?"
+    },
+    "5 Whys_28": {
+      "zh_CN": "为什么？"
+    },
+    "5 Whys_29": {
+      "zh_CN": "为什么？"
+    },
+    "5 Whys_31": {
+      "zh_CN": "根本原因",
+      "en_US": "Your problem"
+    },
+    "5 Whys_32": {
+      "zh_CN": "问题根源",
+      "en_US": "Root of the problem"
+    },
+    "5 Whys_33": {
+      "zh_CN": "你的问题",
+      "en_US": "Why?"
+    },
+    "5 Whys_36": {
+      "zh_CN": "你的问题"
+    },
+    "5 Whys_37": {
+      "zh_CN": "你的问题",
+      "en_US": "Your problem"
+    },
+    "5 Whys_39": {
+      "zh_CN": "你的问题",
+      "en_US": "Your problem"
+    },
+    "5 Whys_42": {
+      "zh_CN": "你的问题",
+      "en_US": "Your problem"
+    },
+    "5 Whys_43": {
+      "zh_CN": "你的问题",
+      "en_US": "Problem statement"
+    },
+    "5 Whys_44": {
+      "zh_CN": "问题声明"
+    },
+    "5 Whys_52": {
+      "zh_CN": "问题声明"
+    },
+    "5 Whys_53": {
+      "zh_CN": "你的问题"
+    },
+    "5 Whys_54": {
+      "zh_CN": "你的问题",
+      "en_US": "Your problem"
+    },
+    "5 Whys_57": {
+      "zh_CN": "你的问题",
+      "en_US": "Your problem"
+    },
+    "5 Whys_59": {
+      "zh_CN": "你的问题"
+    },
+    "5 Whys_60": {
+      "zh_CN": "你的问题",
+      "en_US": "Root of the problem"
+    },
+    "5 Whys_63": {
+      "zh_CN": "你的问题"
+    },
+    "5 Whys_64": {
+      "zh_CN": "问题根源",
+      "en_US": "Your problem"
+    },
+    "5 Whys_65": {
+      "zh_CN": "根本原因"
+    },
+    "5 Whys_73": {
+      "zh_CN": "Step 1\n在每个【问题声明】陈述框中，写下你试图更好地去理解的问题。\n\n\n\nStep 2\n对于【问题声明】的问题，上述问题，以另一种问题陈述的形式写下导致该问题的原因。\n\n\n\nStep 3\n对于你在【为什么 1】中所写的问题，以另一种问题陈述的形式写下导致该问题的原因，直至【为什么 5】\n\n\n\nStep 4\n现在你可以将每个问题陈述的潜在根本原因写在【根本原因】中。\n\n\n"
+    },
+    "5 Whys_75": {
+      "zh_CN": "User's Guide"
+    },
+    "5 Whys_76": {
+      "zh_CN": "使用指南"
+    }
+  },
+  "SWOT分析": {
+    "SWOT分析_1": {
+      "zh_CN": "透过优势,善用机会的策略",
+      "en_US": "Envirnmental factor"
+    },
+    "SWOT分析_2": {
+      "zh_CN": "优势"
+    },
+    "SWOT分析_3": {
+      "zh_CN": "机会",
+      "en_US": "Own specific factors"
+    },
+    "SWOT分析_4": {
+      "zh_CN": "环境因素",
+      "en_US": "Weaknesses"
+    },
+    "SWOT分析_9": {
+      "zh_CN": "SWOT Analysis（SWOT 分析）"
+    },
+    "SWOT分析_12": {
+      "zh_CN": "威胁"
+    },
+    "SWOT分析_13": {
+      "zh_CN": "利用优势预防威胁的策略"
+    },
+    "SWOT分析_14": {
+      "zh_CN": "将劣势面临威胁的部分的潜在危险最小化的战略"
+    },
+    "SWOT分析_18": {
+      "zh_CN": "劣势",
+      "en_US": "Threats"
+    },
+    "SWOT分析_19": {
+      "zh_CN": "利用机会弱化劣势的策略",
+      "en_US": "Strategies to Prevent Threats Using Your Strengths"
+    },
+    "SWOT分析_20": {
+      "zh_CN": "自身特定因素"
+    },
+    "SWOT分析_23": {
+      "zh_CN": "SWOT分析常被用于在商业方案和战略规划中，\n\nSW代表研究对象内部因素\nStrengths—优势  Weaknesses—劣势\n\nOT代表研究对象外部因素\nOpportunities—机会  Threats—威胁\n\n通过分析内部优势和劣势，外部机会和威胁，对研究对象所处的情景进行\n全面、系统、准确的研究，从而制定相应的计划策略。\n\n\n",
+      "en_US": "User's Guide"
+    },
+    "SWOT分析_25": {
+      "zh_CN": "User's Guide"
+    },
+    "SWOT分析_26": {
+      "zh_CN": "使用指南",
+      "en_US": "Instruction"
+    }
+  },
+  "亲和图": {
+    "亲和图_1": {
+      "zh_CN": "使用指南",
+      "en_US": "Instruction"
+    },
+    "亲和图_2": {
+      "zh_CN": "User's Guide",
+      "en_US": "User's Guide"
+    },
+    "亲和图_4": {
+      "zh_CN": "Step 1\n在头脑风暴中，记录想要分类的的想法，确保团队每个成员都参与进来。\n\n\n\nStep 2\n检查记录的想法并尝试找到相关的概念，然后与团队讨论，开始把想法联系起来。邀请成员使用便利贴分享他们的见解。当发现相关的概念时，将它们分组至一起，重复此步骤，直到所有概念都完成分组。\n\n\n\nStep 3\n与团队讨论分组的概念。你同意这样的分组码？如何给它们贴标签？是否需要做更改？\n\n\n\nStep 4\n最后将分组的概念整合，将想法综合成一个更有凝聚力的整体。\n\n",
+      "en_US": "Step 1\nDuring brainstorming, record ideas that you want to categorize and make sure \neveryone on the team is involved.\n\n\nStep 2\nExamine the recorded ideas and try to find related concepts, then discuss with the \nteam to start connecting the ideas. Invite members to share their insights using \npost-it notes. When related concepts are found, group them together and repeat this step until all concepts are grouped.\n\n\nStep 3\nDiscuss the concept of grouping with the team. Do you agree with such block \ncodes? How to label them? Does it need to be changed?\n\n\nStep 4\nFinally, the grouped concepts are integrated to synthesize the ideas into a more \ncohesive whole.\n\n"
+    },
+    "亲和图_6": {
+      "zh_CN": "头脑风暴"
+    },
+    "亲和图_7": {
+      "zh_CN": "想法分组 1"
+    },
+    "亲和图_8": {
+      "zh_CN": "想法分组 2",
+      "en_US": "Affinity Digram"
+    },
+    "亲和图_9": {
+      "zh_CN": "想法分组 3",
+      "en_US": "Affinity diagrams are a visual brainstorming tool that distills ideas and ideas from a brainstorming session into coherent conclusions."
+    },
+    "亲和图_10": {
+      "zh_CN": "亲和图",
+      "en_US": "Grouping of ideas 3"
+    },
+    "亲和图_11": {
+      "zh_CN": "亲和图是一种视觉头脑风暴工具，使用它将头脑风暴会议中的想法和观点提炼成条理清晰的结论。",
+      "en_US": "Grouping of ideas 2"
+    }
+  },
+  "工作流程": {
+    "工作流程_5": {
+      "zh_CN": "进行中"
+    },
+    "工作流程_6": {
+      "zh_CN": "需要审查"
+    },
+    "工作流程_7": {
+      "zh_CN": "已完结"
+    },
+    "工作流程_8": {
+      "zh_CN": "暂停搁置"
+    },
+    "工作流程_9": {
+      "zh_CN": "Workflow （工作流程）"
+    },
+    "工作流程_19": {
+      "zh_CN": "无论是在每周例会还是月/季度例会，都可以使用工作流程模板清晰地了解进行中的、暂停搁置的、需要审查的和已完结的工作。\n除了使用便利贴，还可以通过「共享文件」上传工作内容，放置在相应的流程栏中。\n\n"
+    }
+  },
+  "波士顿矩阵": {
+    "波士顿矩阵_1": {
+      "zh_CN": "市场份额率",
+      "en_US": "Product groups in the low growth, low market share \nquadrant"
+    },
+    "波士顿矩阵_2": {
+      "zh_CN": "销售增长率",
+      "en_US": "Declining products"
+    },
+    "波士顿矩阵_3": {
+      "zh_CN": "厚利产品",
+      "en_US": "Star products"
+    },
+    "波士顿矩阵_4": {
+      "zh_CN": "低增长率、高市场占有率象限内的产品群",
+      "en_US": "Product groups in the high growth, high market share \nquadrant"
+    },
+    "波士顿矩阵_5": {
+      "zh_CN": "低增长率、低市场占有率象限内的产品群",
+      "en_US": "High-profit products"
+    },
+    "波士顿矩阵_6": {
+      "zh_CN": "衰退产品",
+      "en_US": "Product groups in the low growth, high market share \nquadrant"
+    },
+    "波士顿矩阵_7": {
+      "zh_CN": "高增长率、高市场占有率象限内的产品群"
+    },
+    "波士顿矩阵_8": {
+      "zh_CN": "明星产品",
+      "en_US": "Product groups in the high growth, low market share \nquadrant"
+    },
+    "波士顿矩阵_9": {
+      "zh_CN": "问题产品"
+    },
+    "波士顿矩阵_10": {
+      "zh_CN": "高增长率、低市场占有率象限内的产品群",
+      "en_US": "BCG Matrix"
+    },
+    "波士顿矩阵_11": {
+      "zh_CN": "BCG Matrix （波士顿矩阵）",
+      "en_US": "Problem products"
+    },
+    "波士顿矩阵_21": {
+      "zh_CN": "BCG矩阵也称为增长份额矩阵，通过找到产品最重要的两个维度：市场份额率和销售增长率，对公司产品群进行分析，从而看到不同产品的不同发展前景，并为此制定不同发展策略：\n\n明星产品，对这类产品的发展策略是积极扩大经济规模和市场机会，以长远利益为目标，提高市场占有率，加强竞争地位。\n\n衰退产品，对这类产品的发展策略是：减少批量，逐渐撤退。\n\n问题产品，对这类产品采取选择性投资策略是：采取智囊团或项目组织等形式，选拔有规划能力，敢于冒风险、有才干的人负责。\n\n厚利产品，对这类产品的发展策略是进一步提高生产效率，为明星类产品的高速增长提供支持。\n\n\n",
+      "en_US": "Instruction"
+    },
+    "波士顿矩阵_23": {
+      "zh_CN": "User's Guide",
+      "en_US": "User's Guide"
+    },
+    "波士顿矩阵_24": {
+      "zh_CN": "使用指南",
+      "en_US": "Sales growth rate"
+    }
+  },
+  "流程图": {
+    "流程图_1": {
+      "zh_CN": "Flowchart（流程图）",
+      "en_US": "Drawing skills:\n\n1- During the drawing process, it is recommended to maintain a consistent style between the same level and the same theme elements to enhance the coherence and consistency of the content. In addition, grouping and merging similar elements allows for a cleaner hierarchy of structures.\n\n2- Enhance the contrast and visual presentation effect between primary and secondary information through the contrast setting of element attributes, such as: shape, color, size, text style, etc.\n\n3- Aligning elements makes the overall content more organized and easier to form visual associations. Aligning them in a certain order will greatly improve the readability of the entire image.\n\n"
+    },
+    "流程图_2": {
+      "zh_CN": "使用流程图描述复杂的算法，系统，决策流程，工作流程或过程，\n将步骤显示为形状，将决策序列显示为连接箭头。\n",
+      "en_US": "Flowchart"
+    },
+    "流程图_4": {
+      "zh_CN": "绘制技巧：\n\n1- 在绘制过程中，同级别和同类的主题元素间建议保持一致样式，以增强内容的连贯性和一致性。此外，将同类元素进行分组和合并可以达到更清晰的结构层次。\n\n2- 通过对元素属性的对比设置，比如：形状、颜色、大小、文字样式等来增强主次信息间的对比和视觉呈现效果。\n\n3- 对齐元素会让内容整体显得更有条理，更容易形成视觉关联。按照一定的秩序进行对齐排列会让整张图的可读性大大提升。\n\n",
+      "en_US": " yes "
+    },
+    "流程图_12": {
+      "zh_CN": "START",
+      "en_US": "A"
+    },
+    "流程图_13": {
+      "zh_CN": "A"
+    },
+    "流程图_14": {
+      "zh_CN": "B"
+    },
+    "流程图_16": {
+      "zh_CN": "no"
+    },
+    "流程图_17": {
+      "zh_CN": " yes "
+    },
+    "流程图_18": {
+      "zh_CN": " yes "
+    },
+    "流程图_19": {
+      "zh_CN": "no",
+      "en_US": "no"
+    },
+    "流程图_20": {
+      "zh_CN": " yes "
+    },
+    "流程图_21": {
+      "zh_CN": " yes "
+    },
+    "流程图_22": {
+      "zh_CN": " yes "
+    },
+    "流程图_24": {
+      "zh_CN": "User's Guide",
+      "en_US": "User's Guide"
+    },
+    "流程图_25": {
+      "zh_CN": "使用指南",
+      "en_US": "Instruction"
+    }
+  },
+  "脑暴写作": {
+    "脑暴写作_28": {
+      "zh_CN": "想法 3\n完善"
+    },
+    "脑暴写作_29": {
+      "zh_CN": "想法 2\n完善",
+      "en_US": "Idea 1"
+    },
+    "脑暴写作_31": {
+      "zh_CN": "想法 1",
+      "en_US": "Idea 3\nComplete"
+    },
+    "脑暴写作_32": {
+      "zh_CN": "想法 2"
+    },
+    "脑暴写作_33": {
+      "zh_CN": "想法 3"
+    },
+    "脑暴写作_37": {
+      "zh_CN": "参与者 6",
+      "en_US": "participant 4"
+    },
+    "脑暴写作_38": {
+      "zh_CN": "参与者 5",
+      "en_US": "participant 5"
+    },
+    "脑暴写作_39": {
+      "zh_CN": "参与者 4",
+      "en_US": "Idea 2"
+    },
+    "脑暴写作_40": {
+      "zh_CN": "参与者 3"
+    },
+    "脑暴写作_41": {
+      "zh_CN": "参与者 2",
+      "en_US": "participant 2"
+    },
+    "脑暴写作_42": {
+      "zh_CN": "脑暴写作",
+      "en_US": "Brainwriting"
+    },
+    "脑暴写作_43": {
+      "zh_CN": "让每个团队成员都参与其中的创意生成方法。参与者通过将其想法便利贴传递给下一个人来建立彼此的想法，\n后者用这些便想法利贴来激发自己的想法。",
+      "en_US": "participant 6"
+    },
+    "脑暴写作_45": {
+      "zh_CN": "参与者 1",
+      "en_US": "participant 1"
+    }
+  },
+  "逆向头脑风暴": {
+    "逆向头脑风暴_1": {
+      "zh_CN": "z",
+      "en_US": "z"
+    },
+    "逆向头脑风暴_4": {
+      "zh_CN": "User's Guide"
+    },
+    "逆向头脑风暴_5": {
+      "zh_CN": "使用指南",
+      "en_US": "Reverse brainstorming is a method of prompting a team to think about problems rather than solutions, allowing the team to anticipate problems that may arise during the course of a project."
+    },
+    "逆向头脑风暴_6": {
+      "zh_CN": "Step 1\n从【定义问题】开始，写下问题描述，以便每个参与者都了解问题。\n\n\nStep 2\n接下来，【批判思考问题】，与其去想解决问题的办法，不如去想可能导致问题恶化的原因或事情。\n\n\nStep 3 \n收集参与者的想法。\n\n\nStep 4\n批判性的讨论收集到的想法，并把它们转化为解决这些问题的方法。\n\n\nStep 5\n最后，评估这些想法。决定最初的问题的最佳解决方案。\n\n",
+      "en_US": "Reverse Brainstorming"
+    },
+    "逆向头脑风暴_7": {
+      "zh_CN": "方案"
+    },
+    "逆向头脑风暴_8": {
+      "zh_CN": "方案"
+    },
+    "逆向头脑风暴_9": {
+      "zh_CN": "方案",
+      "en_US": "Idea"
+    },
+    "逆向头脑风暴_10": {
+      "zh_CN": "想法"
+    },
+    "逆向头脑风暴_11": {
+      "zh_CN": "想法"
+    },
+    "逆向头脑风暴_12": {
+      "zh_CN": "想法",
+      "en_US": "Idea"
+    },
+    "逆向头脑风暴_13": {
+      "zh_CN": "想法",
+      "en_US": "Idea"
+    },
+    "逆向头脑风暴_14": {
+      "zh_CN": "想法",
+      "en_US": "Program"
+    },
+    "逆向头脑风暴_15": {
+      "zh_CN": "想法"
+    },
+    "逆向头脑风暴_18": {
+      "zh_CN": "确定解决方法",
+      "en_US": "Idea"
+    },
+    "逆向头脑风暴_19": {
+      "zh_CN": "批判思考想法",
+      "en_US": "Idea"
+    },
+    "逆向头脑风暴_20": {
+      "zh_CN": "收集想法"
+    },
+    "逆向头脑风暴_21": {
+      "zh_CN": "批判思考问题",
+      "en_US": "Critical thinking"
+    },
+    "逆向头脑风暴_22": {
+      "zh_CN": "定义问题",
+      "en_US": "Collect ideas"
+    },
+    "逆向头脑风暴_28": {
+      "zh_CN": "逆向头脑风暴是一种促使团队思考问题而不是解决方案的方法，让团队预测项目过程中可能出现的问题。",
+      "en_US": "User's Guide"
+    },
+    "逆向头脑风暴_29": {
+      "zh_CN": "逆向头脑风暴"
+    }
+  },
+  "韦恩图": {
+    "韦恩图_1": {
+      "zh_CN": "ABC"
+    },
+    "韦恩图_5": {
+      "zh_CN": "C"
+    },
+    "韦恩图_6": {
+      "zh_CN": "AC",
+      "en_US": "C"
+    },
+    "韦恩图_7": {
+      "zh_CN": "韦恩图是一种广泛使用的方式，可以轻松地说明元素之间的\n逻辑关系，还可以根据需要随意添加任意多个圆！\n",
+      "en_US": "AC"
+    },
+    "韦恩图_8": {
+      "zh_CN": "Venn Diagram（韦恩图）",
+      "en_US": "Venn diagrams are a widely used way to easily illustrate the relationship between elements\nLogical relationship, you can also add as many circles as you want!\n"
+    },
+    "韦恩图_9": {
+      "zh_CN": "B",
+      "en_US": "AB"
+    },
+    "韦恩图_10": {
+      "zh_CN": "A",
+      "en_US": "BC"
+    },
+    "韦恩图_11": {
+      "zh_CN": "AB",
+      "en_US": "A"
+    },
+    "韦恩图_12": {
+      "zh_CN": "BC",
+      "en_US": "B"
+    }
+  },
+  "22优先方法": {
+    "22优先方法_1": {
+      "zh_CN": "不做",
+      "en_US": "Not Done"
+    },
+    "22优先方法_2": {
+      "zh_CN": "有时间再做",
+      "en_US": "Have time to do it again"
+    },
+    "22优先方法_3": {
+      "zh_CN": "未来做",
+      "en_US": "Future do"
+    },
+    "22优先方法_6": {
+      "zh_CN": "2*2 Prioritization Method （2*2 优先方法）",
+      "en_US": "2*2 Prioritization Method"
+    },
+    "22优先方法_8": {
+      "zh_CN": "高价值",
+      "en_US": "High pay"
+    },
+    "22优先方法_9": {
+      "zh_CN": "低付出",
+      "en_US": "Low pay"
+    },
+    "22优先方法_10": {
+      "zh_CN": "低价值",
+      "en_US": "Do it now"
+    },
+    "22优先方法_11": {
+      "zh_CN": "高付出",
+      "en_US": "High value"
+    },
+    "22优先方法_12": {
+      "zh_CN": "现在做"
+    },
+    "22优先方法_17": {
+      "zh_CN": "2×2的优先排序方法为团队提供了一个可视化的框架来确定下一步该做哪些项目。\n\n\n"
+    }
+  },
+  "22优先矩阵": {
+    "22优先矩阵_6": {
+      "zh_CN": "2*2 Prioritization Matrix （2*2 优先矩阵）"
+    },
+    "22优先矩阵_11": {
+      "zh_CN": "使用优先级矩阵来帮助您的团队基于两个加权标准而不是主观意见来做出重要决策。\n\n\n"
+    }
+  },
+  "33优先方法": {
+    "33优先方法_1": {
+      "zh_CN": "ITERATION 4",
+      "en_US": "ITERATION 4"
+    },
+    "33优先方法_2": {
+      "zh_CN": "大",
+      "en_US": "Small"
+    },
+    "33优先方法_3": {
+      "zh_CN": "中",
+      "en_US": "Large"
+    },
+    "33优先方法_4": {
+      "zh_CN": "小",
+      "en_US": "ITERATION 3"
+    },
+    "33优先方法_5": {
+      "zh_CN": "低",
+      "en_US": "ITERATION 2"
+    },
+    "33优先方法_6": {
+      "zh_CN": "中",
+      "en_US": "ITERATION 1"
+    },
+    "33优先方法_7": {
+      "zh_CN": "高"
+    },
+    "33优先方法_8": {
+      "zh_CN": "ITERATION 3",
+      "en_US": "Medium"
+    },
+    "33优先方法_9": {
+      "zh_CN": "ITERATION 2",
+      "en_US": "High"
+    },
+    "33优先方法_10": {
+      "zh_CN": "ITERATION 1",
+      "en_US": "Medium"
+    },
+    "33优先方法_20": {
+      "zh_CN": "影响"
+    },
+    "33优先方法_21": {
+      "zh_CN": "努力",
+      "en_US": "3*3 Prioritization Method"
+    },
+    "33优先方法_22": {
+      "zh_CN": "3*3 Prioritization Method （3*3 优先方法）",
+      "en_US": "Effort"
+    },
+    "33优先方法_27": {
+      "zh_CN": "3x3的优先级划分方法为团队提供了一个可视化的框架，让他们可以确定下一步要做\n什么，同时也可以确定未来要做什么。\n\n\n"
+    }
+  },
+  "商业模型画布": {
+    "商业模型画布_22": {
+      "zh_CN": "客户群体"
+    },
+    "商业模型画布_23": {
+      "zh_CN": "渠道"
+    },
+    "商业模型画布_24": {
+      "zh_CN": "客户关系",
+      "en_US": "Key business"
+    },
+    "商业模型画布_25": {
+      "zh_CN": "价值主张",
+      "en_US": "Value proposition"
+    },
+    "商业模型画布_26": {
+      "zh_CN": "核心资源",
+      "en_US": "Customer relations"
+    },
+    "商业模型画布_27": {
+      "zh_CN": "关键业务",
+      "en_US": "Channel"
+    },
+    "商业模型画布_30": {
+      "zh_CN": "重要伙伴",
+      "en_US": "Customer group"
+    },
+    "商业模型画布_31": {
+      "zh_CN": "收入来源"
+    },
+    "商业模型画布_41": {
+      "zh_CN": "Business Model Canvas（商业模型画布）",
+      "en_US": "User's Guide"
+    },
+    "商业模型画布_42": {
+      "zh_CN": "成本结构",
+      "en_US": "Cost structure"
+    },
+    "商业模型画布_44": {
+      "zh_CN": "作为构思和分析商业模式的经典模型之一，商业模式画布（Business Modle Canvas）由9个模块构成，通过分析这九个模块能够帮助创业者催生创意、查找问题，确保产品找对了目标用户。\n\n1 - 首先确定产品面向的客户群体以及解决其什么痛点，这就对应了商业模式画布中的「客户细分」和「价值主张」\n\n2 - 接着思考如何将产品的价值主张通过何种渠道传递至目标人群中接触到用户，即「渠道通路」，在实际搭建中，需要评估各渠道的有效性（投入产出比）。\n\n3 - 分析产品的运营模式，其中「关键业务」和「核心资源」两个模块支撑产品的内部循环，是维系整体业务运作的基石。「重要合作」则是高效运营需要考虑的外部因素，在实际评估中，除了关注具有合作关系的供应商、VIP客户、合资者以及战略联盟以外，密切关注竞品的举动也很重要。此外，通过对产品和服务进行不断地改进以维系「客户关系」，形成良好的长期往来。\n\n4 - 确认产品的盈利模式，即「成本结构」和「收入来源」两个模块，在一个良好的商业模式下，成本不应长期大于收入，企业可以通过“开源节流”以实现商业模式的高效运作。\n\n\n",
+      "en_US": "As one of the classic models for conceiving and analyzing business models, the Business Model Canvas consists of 9 modules. By analyzing these 9 modules, it can help entrepreneurs generate ideas, find problems, and ensure that products find the right target users.\n\n1 - First determine the customer group the product is aimed at and what pain points it solves, which corresponds to the \"customer segmentation\" and \"value proposition\" in the business model canvas\n\n2 - Then think about how to transmit the value proposition of the product to the target group through which channels to reach users, that is, the \"channel channel\". In the actual construction, it is necessary to evaluate the effectiveness of each channel (input-output ratio).\n\n3 - Analyze the operation mode of the product. The two modules of \"key business\" and \"core resources\" support the internal circulation of the product and are the cornerstone of maintaining the overall business operation. \"Important cooperation\" is an external factor that needs to be considered for efficient operation. In actual evaluation, in addition to paying attention to cooperative suppliers, VIP customers, joint venturers and strategic alliances, it is also important to pay close attention to the actions of competing products. In addition, through continuous improvement of products and services to maintain \"customer relationship\", a good long-term relationship has been formed.\n\n4 - Confirm the profit model of the product, that is, the two modules of \"cost structure\" and \"income source\". In a good business model, the cost should not be greater than the income for a long time, and the enterprise can realize the efficient operation of the business model through \"open source and reduce expenditure\" .\n\n\n"
+    },
+    "商业模型画布_46": {
+      "zh_CN": "User's Guide"
+    },
+    "商业模型画布_47": {
+      "zh_CN": "使用指南"
+    }
+  },
+  "影响努力矩阵": {
+    "影响努力矩阵_8": {
+      "zh_CN": "高付出"
+    },
+    "影响努力矩阵_9": {
+      "zh_CN": "影响小",
+      "en_US": "high pay"
+    },
+    "影响努力矩阵_10": {
+      "zh_CN": "低付出"
+    },
+    "影响努力矩阵_11": {
+      "zh_CN": "影响大",
+      "en_US": "Impact/Effort Matrix helps teams with a quick, intuitive categorization guide to active tasks\nQuickly control task priorities.\n\nLow pay, high return:\nThe effort required to complete the task is best rewarded;\n\nHigh pay and high return:\nRequires more effort to complete, but ultimately provides long-term rewards;\n\nLow pay and low return:\nFilling jobs that don't require a lot of effort but don't provide much value,\n\nLow pay and low return:\nA waste of time or a lot of time to complete with little benefit.\n"
+    },
+    "影响努力矩阵_12": {
+      "zh_CN": "影响/努力矩阵 Impact / Effort Matrix",
+      "en_US": "Great impact"
+    },
+    "影响努力矩阵_21": {
+      "zh_CN": "影响/努力矩阵可对活动任务进行快速、直观的分类指南，帮助团队\n快速把控任务优先级。\n\n低付出高回报：\n完成任务所需的努力就可获得最佳回报；\n\n高付出高回报：\n需要付出更多努力才能完成，但最终可以提供长期回报； \n\n低付出低回报：\n不需要花费很多精力但没有提供太多价值的填充工作，\n\n低付出低回报：\n浪费时间或需花费大量时间才能完成，而带来的好处却很少。 \n\n\n",
+      "en_US": "Impact / Effort Matrix"
+    },
+    "影响努力矩阵_23": {
+      "zh_CN": "User's Guide",
+      "en_US": "User's Guide"
+    },
+    "影响努力矩阵_24": {
+      "zh_CN": "使用指南"
+    }
+  }
+}

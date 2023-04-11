@@ -41,7 +41,7 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;//@base-bg-color;
+    background-color: #efefef;
     .img{
       padding-right: 52px;
       zoom: 1;
@@ -58,7 +58,7 @@ export default {
         margin-bottom: 24px;
       }
       .desc{
-        color: red;//@text-color-second;
+        color: #333;//@text-color-second;
         font-size: 20px;
         line-height: 28px;
         margin-bottom: 16px;

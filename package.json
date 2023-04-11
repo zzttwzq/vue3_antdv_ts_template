@@ -3,19 +3,27 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
+        "p": "plop",
         "dev": "vue-cli-service serve",
         "build": "vue-cli-service build",
         "lint": "vue-cli-service lint"
     },
     "dependencies": {
-        "ant-design-vue": "2.2.2",
-        "axios": "^0.26.0",
+        "ant-design-vue": "^2.2.2",
+        "antdv-fast-table": "^1.1.0",
+        "axios": "^0.26.1",
         "core-js": "^3.8.3",
         "lodash": "^4.17.21",
         "moment": "^2.29.1",
+        "openai": "^3.1.0",
+        "pinyin": "^3.0.0-alpha.5",
+        "sass-loader": "^13.1.0",
+        "three": "^0.145.0",
         "vue": "^3.2.13",
+        "vue-i18n": "^9.3.0-beta.17",
         "vue-router": "^4.0.14",
-        "vuex": "^4.0.2"
+        "vuex": "^4.0.2",
+        "zx-templates": "^0.0.26"
     },
     "devDependencies": {
         "@babel/core": "^7.12.16",
