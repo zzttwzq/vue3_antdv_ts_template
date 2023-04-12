@@ -1,22 +1,10 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import router from './router'
 
-// 配置ant-design-vue
-import 'ant-design-vue/dist/antd.css';
-import antd from 'ant-design-vue';
-import FastTable from 'antdv-fast-table';
+// 三方库注入
+import PublicInit from '@/public-init'
 
-// 配置vuex
-import vuex from "@/store/index"
-
-// 多语言
-import i18n from './i18n'
-
+// 引入
 createApp(App)
-.use(antd)
-.use(router)
-.use(vuex)
-.use(i18n)
-.use(FastTable)
+.use(PublicInit)
 .mount('#app')
