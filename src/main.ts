@@ -2,9 +2,9 @@ import { createApp } from 'vue'
 import App from './App.vue'
 
 // 三方库注入
-import PublicInjector from '@/public-lib'
+import PublicInit from '@/public-init'
 
 // 引入
 createApp(App)
-.use(PublicInjector)
+.use(PublicInit)
 .mount('#app')

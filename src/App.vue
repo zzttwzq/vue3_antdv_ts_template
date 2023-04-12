@@ -4,9 +4,10 @@
 
 <script>
 import { defineComponent, onBeforeMount, reactive, toRefs } from "vue";
+import { test } from '@/api/user'
 
 export default defineComponent({
-  setup() {
+  async setup() {
     // 数据和事件
     const dataMap = reactive({});
 
@@ -16,6 +17,9 @@ export default defineComponent({
     onBeforeMount(() => {
       console.log("appPage im onBeforeMount");
     });
+
+    let d = await test();
+    console.log(d);
 
     return { ...toRefs(dataMap) };
   },
