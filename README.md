@@ -16,7 +16,7 @@
     4.  page文件代码 d
     5.  table文件代码 x
 4. env配置 d
-5. vuex 配置
+5. vuex 配置 
    1. vuex index
    2. vuex user
    3. vuex tab...
