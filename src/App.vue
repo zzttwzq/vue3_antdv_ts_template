@@ -10,12 +10,12 @@ export default defineComponent({
     // 数据和事件
     const dataMap = reactive({});
 
-    console.log('>>> ', process.env.NODE_ENV);
+    console.log(">>> ", process.env.NODE_ENV);
 
     //
     onBeforeMount(() => {
       console.log("appPage im onBeforeMount");
-    })
+    });
 
     return { ...toRefs(dataMap) };
   },
