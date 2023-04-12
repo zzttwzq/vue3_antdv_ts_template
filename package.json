@@ -4,8 +4,10 @@
     "private": true,
     "scripts": {
         "p": "plop",
-        "dev": "vue-cli-service serve",
-        "build": "vue-cli-service build",
+        "dev": "vue-cli-service serve --mode dev",
+        "build:test": "vue-cli-service build --mode test",
+        "build:sim": "vue-cli-service build --mode sim",
+        "build:prod": "vue-cli-service build",
         "lint": "vue-cli-service lint"
     },
     "dependencies": {
