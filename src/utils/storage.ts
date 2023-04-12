@@ -1,4 +1,4 @@
-let Storage = {
+const Storage = {
     /**
      * 存储数据
      * @param key 存储的key
@@ -33,5 +33,4 @@ let Storage = {
         window.localStorage.clear();
     },
 }
-
 export default Storage

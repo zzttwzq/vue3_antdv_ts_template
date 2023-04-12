@@ -6,5 +6,5 @@ import PublicInit from '@/public-init'
 
 // 引入
 createApp(App)
-.use(PublicInit)
-.mount('#app')
+    .use(PublicInit)
+    .mount('#app')
