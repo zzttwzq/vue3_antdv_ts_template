@@ -1,5 +1,6 @@
 let constrant = {
-    LOCAL: 'LOCAL'
+    LOCAL: 'LOCAL',
+    TOKEN: process.env.USER_TOKEN_KEY,
 }
 
 export default constrant;
