@@ -3,19 +3,10 @@
 </template>
 
 <script>
-import { defineComponent, onBeforeMount, reactive, toRefs } from "vue";
+import { defineComponent } from "vue";
 
 export default defineComponent({
-  setup() {
-    // 数据和事件
-    const dataMap = reactive({});
-
-    onBeforeMount(() => {
-      console.log("appPage im onBeforeMount");
-    });
-
-    return { ...toRefs(dataMap) };
-  },
+  setup() {},
 });
 </script>
 

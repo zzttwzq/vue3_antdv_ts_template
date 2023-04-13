@@ -1,7 +1,13 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router';
-import { localRoutes } from './local';
+let constantRoutes: Array<RouteRecordRaw> = [];
 
-const constantRoutes: Array<RouteRecordRaw> = localRoutes;
+import { localRoutes } from './constrant_routes';
+constantRoutes = constantRoutes.concat(localRoutes);
+console.log('>>> ', constantRoutes);
+
+import { permissionRoutes } from './permission_routers';
+constantRoutes[4].children = permissionRoutes;
+
 const router = createRouter({
     history: createWebHashHistory(),
     routes: constantRoutes,

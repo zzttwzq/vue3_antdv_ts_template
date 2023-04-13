@@ -3,24 +3,28 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, onBeforeMount, reactive, toRefs } from "vue";
+  import { defineComponent, onBeforeMount, reactive, toRefs } from "vue";
 
-export default defineComponent({
-  setup() {
-    // 数据和事件
-    const dataMap = reactive({
-      activeName: "directly",
-      handleClick: () => {
-        console.log("im being click");
-      },
-    });
+  export default defineComponent({
+    setup() {
+      // 数据和事件
+      const dataMap = reactive({
+        activeName: "directly",
+        handleClick: () => {
+          console.log("im being click");
+        },
+      });
 
-    // 
-    onBeforeMount(() => {
-      console.log("{{name}}Page im onBeforeMount");
-    })
+      // 
+      onBeforeMount(() => {
+        console.log("{{name}}Page im onBeforeMount");
+      })
 
-    return { ...toRefs(dataMap) };
-  },
-});
+      return { ...toRefs(dataMap) };
+    },
+  });
 </script>
+
+<style lang="less" scoped>
+  .container {}
+</style>
