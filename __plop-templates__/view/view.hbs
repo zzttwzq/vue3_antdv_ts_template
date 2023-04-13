@@ -1,8 +1,8 @@
 <template>
-  <div @click="handleClick" class="app-container">{{name}}Page \{{ $t("test") }}</div>
+  <div @click="handleClick" class="container">{{name}}Page \{{ $t("test") }}</div>
 </template>
 
-<script>
+<script lang="ts">
 import { defineComponent, onBeforeMount, reactive, toRefs } from "vue";
 
 export default defineComponent({
