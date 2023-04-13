@@ -1,5 +1,5 @@
 <template>
-  <div @click="handleClick" class="app-container">{{name}}Page \{{ $t("test") }}</div>
+  <div class="app-container">{{ name组件 }}</div>
 </template>
 
 <script>
@@ -14,12 +14,7 @@ export default defineComponent({
         console.log("im being click");
       },
     });
-
-    // 
-    onBeforeMount(() => {
-      console.log("{{name}}Page im onBeforeMount");
-    })
-
+    
     return { ...toRefs(dataMap) };
   },
 });
