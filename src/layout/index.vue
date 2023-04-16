@@ -13,7 +13,7 @@
 import { defineComponent, onBeforeMount, reactive, toRefs } from "vue";
 import SiderBar from "./component/sider-bar.vue";
 import AppManager from "./component/app-manager.vue";
-import NavBar from "./component/nav-bar.vue";
+import NavBar from "./component/nav-bar.vue";  
 import TabBar from "./component/tab-bar.vue";
 
 export default defineComponent({
@@ -55,7 +55,7 @@ export default defineComponent({
   left: 0;
   z-index: 1001;
   overflow: hidden;
-  background-color: #f0f2f5 !important;
+  background-color: #fff !important;
 }
 
 .main-container {
