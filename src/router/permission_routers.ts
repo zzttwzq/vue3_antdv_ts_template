@@ -22,7 +22,7 @@ export const permissionRoutes: Array<RouteRecordRaw> = [
     {
         path: '/index',
         component: () => import('@/views/index/indexPage.vue'),
-        name:'index',
+        name: 'index',
         meta: {
             title: 'index'
         }
@@ -30,10 +30,28 @@ export const permissionRoutes: Array<RouteRecordRaw> = [
     {
         path: '/test',
         component: () => import('@/views/test/testPage.vue'),
-        name:'test',
+        name: 'test',
         meta: {
             title: 'test'
-        }
+        },
+        children: [
+            {
+                path: '/test1',
+                component: () => import('@/views/test/testPage.vue'),
+                name: 'test1',
+                meta: {
+                    title: 'test1'
+                },
+            },
+            {
+                path: '/test2',
+                component: () => import('@/views/test/testPage.vue'),
+                name: 'test2',
+                meta: {
+                    title: 'test2'
+                },
+            },
+        ]
     },
 
 ];
