@@ -2,22 +2,6 @@ import { RouteRecordRaw } from 'vue-router'
 
 export const localRoutes: Array<RouteRecordRaw> = [
     {
-        path: '/table',
-        component: () => import("@/views/table/tablePage.vue"),
-        name: 'table',
-        meta: {
-            title: 'table'
-        }
-    },
-    {
-        path: '/index',
-        component: () => import('@/views/index/indexPage.vue'),
-        name: 'index',
-        meta: {
-            title: 'index'
-        }
-    }, 
-    {
         path: '/login',
         name: '登录页',
         component: () =>
@@ -43,12 +27,9 @@ export const localRoutes: Array<RouteRecordRaw> = [
     },
     {
         path: '/',
-        name: '首页',
-        redirect: '/login',
-        children: [],
+        name: 'root',
+        component: import("@/layout/index.vue"),
+        // redirect: '/dashboard',
+        children: []
     },
-    // {
-    //     path: '/:catchAll(.*)',
-    //     redirect: '/404',
-    // },
 ];

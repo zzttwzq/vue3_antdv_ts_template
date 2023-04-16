@@ -1,9 +1,9 @@
 <template>
-  <div class="container">{{ name组件 }}</div>
+  <div @click="handleClick" class="container">testPage {{ $t("test") }}</div>
 </template>
 
 <script lang="ts">
-  import { defineComponent, toRefs } from "vue";
+  import { defineComponent, onBeforeMount, reactive, toRefs } from "vue";
 
   export default defineComponent({
     setup() {
@@ -14,6 +14,11 @@
           console.log("im being click");
         },
       });
+
+      // 
+      onBeforeMount(() => {
+        console.log("testPage im onBeforeMount");
+      })
 
       return { ...toRefs(dataMap) };
     },

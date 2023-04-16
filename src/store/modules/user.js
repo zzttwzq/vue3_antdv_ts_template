@@ -8,7 +8,7 @@ import {
     removeAccessToken,
     setAccessToken,
 } from '@/utils/accessToken'
-import { title, tokenName } from '@/config'
+import constrant from '@/config/constrant'
 import { message, notification } from 'ant-design-vue'
 
 const state = () => ({
@@ -55,7 +55,7 @@ const actions = {
      */
     async login({ commit }, userInfo) {
         const { data } = await login(userInfo)
-        const accessToken = data[tokenName]
+        const accessToken = data[constrant.TOKEN]
         if (accessToken) {
             commit('setAccessToken', accessToken)
             const hour = new Date().getHours()
@@ -70,11 +70,11 @@ const actions = {
                 '下午好' :
                 '晚上好'
             notification.open({
-                message: `欢迎登录${title}`,
+                message: `欢迎登录${process.env.VUE_APP_NAME}`,
                 description: `${thisTime}！`,
             })
         } else {
-            message.error(`登录接口异常，未正确返回${tokenName}...`)
+            message.error(`登录接口异常，未正确返回${constrant.TOKEN}...`)
         }
     },
 

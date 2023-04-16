@@ -4,10 +4,16 @@
  */
 const routerGenerator = require('./__plop-templates__/router/prompt')
 const componentGenerator = require('./__plop-templates__/component/prompt')
-    // const vueGenerator = require('./__plop-templates__/vue/prompt')
-    // const vuexGenerator = require('./__plop-templates__/vuex/prompt')
+const viewGenerator = require('./__plop-templates__/view/prompt')
+const menuGenerator = require('./__plop-templates__/menu/prompt')
+
+
+// const vueGenerator = require('./__plop-templates__/vue/prompt')
+// const vuexGenerator = require('./__plop-templates__/vuex/prompt')
 
 module.exports = (plop) => {
+    plop.setGenerator('menu', menuGenerator)
+    plop.setGenerator('view', viewGenerator)
     plop.setGenerator('component', componentGenerator)
     plop.setGenerator('router', routerGenerator)
 

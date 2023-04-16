@@ -15,7 +15,7 @@ module.exports = {
 
         const actions = [{
             type: 'append',
-            path: `./src/router/local.js`,
+            path: `./src/router/permission_routers.js`,
             pattern: /\[/,
             templateFile: './__plop-templates__/router/router.hbs',
             data: {

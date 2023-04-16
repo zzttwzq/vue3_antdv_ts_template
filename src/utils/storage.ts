@@ -1,4 +1,4 @@
-let Storage = {
+const Storage = {
     /**
      * 存储数据
      * @param key 存储的key
@@ -34,4 +34,4 @@ let Storage = {
     },
 }
 
-export default Storage
+export default Storage;
