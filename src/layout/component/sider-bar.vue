@@ -2,42 +2,42 @@
   <div>
     <a-layout>
       <!-- <a-layout-sider v-if="roles.length" class="web-side" theme="light" :width="240"> -->
-        <SidebarLogo v-if="showLogo" :collapse="isCollapse" />
-        <a-menu
-          class="menu"
-          mode="inline"
-          theme="light"
-          :openKeys="openKeys"
-          :selected-keys="menuActive"
-          @select="select"
-        >
-          <template v-for="route in filterRoutes">
-            <template v-if="route.children && route.children.length">
-              <a-sub-menu
-                class="nav-item"
-                :menus="route"
-                :parent-path="route.path"
-                :key="route.path"
-                :title="route.meta.title"
-              >
-                <template :key="route2.path" v-for="route2 in route.children">
-                  <router-link :to="route2.path">
-                    <a-menu-item :key="route2.path">
-                      <span style="color: #333">{{ route2.meta.title }}</span>
-                    </a-menu-item>
-                  </router-link>
-                </template>
-              </a-sub-menu>
-            </template>
-            <template v-else>
-              <router-link :key="route.path" :to="route.path">
-                <a-menu-item :key="route.path">
-                  <span style="color: #333">{{ route.meta.title }}</span>
-                </a-menu-item>
-              </router-link>
-            </template>
+      <SidebarLogo v-if="showLogo" :collapse="isCollapse" />
+      <a-menu
+        class="menu"
+        mode="inline"
+        theme="light"
+        :openKeys="openKeys"
+        :selected-keys="menuActive"
+        @select="select"
+      >
+        <template v-for="route in filterRoutes">
+          <template v-if="route.children && route.children.length">
+            <a-sub-menu
+              class="nav-item"
+              :menus="route"
+              :parent-path="route.path"
+              :key="route.path"
+              :title="route.meta.title"
+            >
+              <template :key="route2.path" v-for="route2 in route.children">
+                <router-link :to="route2.path">
+                  <a-menu-item :key="route2.path">
+                    <span style="color: #333">{{ route2.meta.title }}</span>
+                  </a-menu-item>
+                </router-link>
+              </template>
+            </a-sub-menu>
           </template>
-        </a-menu>
+          <template v-else>
+            <router-link :key="route.path" :to="route.path">
+              <a-menu-item :key="route.path">
+                <span style="color: #333">{{ route.meta.title }}</span>
+              </a-menu-item>
+            </router-link>
+          </template>
+        </template>
+      </a-menu>
       <!-- </a-layout-sider> -->
     </a-layout>
   </div>
@@ -66,8 +66,8 @@ export default defineComponent({
       showLogo: true,
       isCollapse: false,
       roles: ["1"],
-      openKeys: ["/test"],
-      menuActive: ["/test"],
+      openKeys: ["/ttt"],
+      menuActive: ["dashboard"],
       filterRoutes: list,
       activeName: "directly",
       handleClick: () => {
@@ -98,5 +98,11 @@ export default defineComponent({
 .nav-item {
   // background: #fff;
   // color: aqua;
+}
+
+.ant-menu-inline,
+.ant-menu-vertical,
+.ant-menu-vertical-left {
+  border-right: none;
 }
 </style>

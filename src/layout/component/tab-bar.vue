@@ -1,10 +1,9 @@
 <template>
   <div class="container"></div>
 </template>
-
+ 
 <script lang="ts">
-import { defineComponent, onBeforeMount, reactive, toRefs } from "vue";
-import { RouteRecordRaw } from "vue-router";
+import { defineComponent, reactive, toRefs } from "vue";
 
 export default defineComponent({
   setup() {
@@ -14,8 +13,8 @@ export default defineComponent({
       activeName: "directly",
       handleClick: () => {
         console.log("im being click");
-      },
-    });
+      }, 
+    }); 
 
     console.log("sider...");
 

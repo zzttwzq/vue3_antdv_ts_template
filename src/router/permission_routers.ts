@@ -28,11 +28,11 @@ export const permissionRoutes: Array<RouteRecordRaw> = [
         }
     },
     {
-        path: '/test',
+        path: '/ttt',
         component: () => import('@/views/test/testPage.vue'),
-        name: 'test',
+        name: 'ttt',
         meta: {
-            title: 'test'
+            title: 'ttt'
         },
         children: [
             {

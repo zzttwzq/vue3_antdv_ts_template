@@ -33,4 +33,5 @@ const Storage = {
         window.localStorage.clear();
     },
 }
-export default Storage
+
+export default Storage;

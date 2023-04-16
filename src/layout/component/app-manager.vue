@@ -1,14 +1,17 @@
 <template>
   <div class="container">
-    <a-layout>
-      <router-view></router-view>
-    </a-layout>
+    <section class="app-main">
+      <transition name="fade-transform" mode="out-in">
+        <keep-alive :include="cachedViews">
+          <router-view :key="key" />
+        </keep-alive>
+      </transition>
+    </section>
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent, onBeforeMount, reactive, toRefs } from "vue";
-import { RouteRecordRaw } from "vue-router";
+import { defineComponent, reactive, toRefs } from "vue";
 
 export default defineComponent({
   setup() {
@@ -21,9 +24,20 @@ export default defineComponent({
       },
     });
 
+    const cachedViews = () => {
+      return [];
+    };
+    const key = () => {
+      return "";
+    };
+
     console.log("appmanager...");
 
-    return { ...toRefs(dataMap) };
+    return {
+      cachedViews,
+      key,
+      ...toRefs(dataMap),
+    };
   },
 });
 </script>
@@ -32,5 +46,13 @@ export default defineComponent({
 .app-container {
   display: flex;
   flex-direction: row;
+}
+
+.app-main{
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 </style>

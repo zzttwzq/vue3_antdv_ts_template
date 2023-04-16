@@ -24,15 +24,22 @@
     3.  错误码配置
     4.  重定向配置
 5. vuex 配置 
-   1. vuex index
-   2. vuex user
-   3. vuex tab...
+   1. vuex index d
+   2. vuex routes -
+   3. vuex setting
+   4. vuex user
+   5. vuex tab...
 6.  vue webpack配置
     1.  webpack custom config 
-8.  页面
-    1.  login 
-    2.  menu 
-    3.  top
-    4.  navigator
-    5.  pageview
-    6.  页面框架
+7.  页面
+    1.  pageview d
+    2.  siderbar d
+        1. siderbar 颜色样式优化
+        2. siderbar 状态保持
+    3.  navbar
+        1.  用户登陆状态展示 d
+        2.  退出登录等入口 d
+        3.  面包屑导航 d
+    4.  tabbar多标签页面
+    5.  
+    6.  login 
