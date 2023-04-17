@@ -2,8 +2,16 @@ import { RouteRecordRaw } from 'vue-router'
 
 export const permissionRoutes: Array<RouteRecordRaw> = [
     {
+        path: '/customForm',
+        component: () => import('@/views/customForm/customFormPage.vue'),
+        name: 'customForm',
+        meta: {
+            title: 'customForm'
+        }
+    },
+    {
         path: 'dashboard',
-        component: () => import(/* webpackChunkName: "dashboard" */ '@/views/dashboard/dashboardPage.vue'),
+        component: () => import('@/views/dashboard/dashboardPage.vue'),
         name: 'Dashboard',
         meta: {
             title: 'dashboard',

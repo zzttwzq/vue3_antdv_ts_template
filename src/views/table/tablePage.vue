@@ -5,11 +5,11 @@
       :columns="columns"
       :searchList="searchList"
       :formList="formList"
-      :listRequest="get_field_page"
-      :addRequest="post_field"
-      :editRequest="post_field_update"
-      :editDetailRequest="get_field"
-      :deleteRequest="delete_field"
+      :listRequest="listRequest"
+      :addRequest="addRequest"
+      :editRequest="editRequest"
+      :editDetailRequest="editDetailRequest"
+      :deleteRequest="deleteRequest"
       :handelListData="handelListData"
       :handelWillEdit="handelWillEdit"
       :handelWillAdd="handelWillAdd"
@@ -17,6 +17,7 @@
       :handelAddResult="handelAddResult"
       :handelEditResult="handelEditResult"
       :handelDeleteResult="handelDeleteResult"
+      
     >
       <template v-slot:buttons="data">
         <a @click="yesRelevance(data.record)"> 账号关联 </a>
@@ -33,13 +34,16 @@ export default defineComponent({
     // 数据和事件
     const dataMap = reactive({
       activeName: "directly",
-      columns:[{
-        title: "字段名称",
+      columns: [
+        {
+          title: "字段名称",
           key: "nameCn",
           dataIndex: "nameCn",
-      }],
-      searchList:[],
-      formList:[{
+        },
+      ],
+      searchList: [],
+      formList: [
+        {
           name: "字段名称",
           type: "text", // text, number, numberRange, select, date, datetime, dateRange
           decorator: [
@@ -48,9 +52,14 @@ export default defineComponent({
               rules: [{ required: true, message: "请输入字段名称" }],
             },
           ],
-        },],
-      listRequest: () => {
+        },
+      ],
+      listRequest: async () => {
         console.log(">>> listRequest");
+
+        // sleep(1);
+
+        return { data: [{nameCn: 'asdf'}] };
       },
       addRequest: () => {
         console.log(">>> addRequest");
@@ -87,10 +96,10 @@ export default defineComponent({
       },
     });
 
-    // 
+    //
     onBeforeMount(() => {
       console.log("tablePage im onBeforeMount");
-    })
+    });
 
     return { ...toRefs(dataMap) };
   },

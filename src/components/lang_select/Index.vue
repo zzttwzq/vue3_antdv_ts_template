@@ -32,11 +32,12 @@
 </template>
 
 <script lang="ts">
-import { useStore } from '@/store'
+import { useStore } from 'vuex'
 import { computed, defineComponent, reactive, toRefs } from 'vue'
-import { AppActionTypes } from '@/store/modules/app/action-types'
+// import { AppActionTypes } from '@/store/modules/app/action-types'
 import { useI18n } from 'vue-i18n'
-import { ElMessage } from 'element-plus'
+// import { ElMessage } from 'element-plus'
+
 type Language = {
     name: string
     value: string
@@ -57,11 +58,11 @@ export default defineComponent({
       languages: [{ name: 'en', value: 'en' }, { name: '中文', value: 'zh-cn' }] as Array<Language>,
       handleSetLanguage: (lang: string) => {
         locale.value = lang
-        store.dispatch(AppActionTypes.ACTION_SET_LANGUAGE, lang)
-        ElMessage({
-          message: 'Switch Language Success',
-          type: 'success'
-        })
+        // store.dispatch(AppActionTypes.ACTION_SET_LANGUAGE, lang)
+        // ElMessage({
+        //   message: 'Switch Language Success',
+        //   type: 'success'
+        // })
       }
     })
     const language = computed(() => {

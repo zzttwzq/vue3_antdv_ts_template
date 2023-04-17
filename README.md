@@ -34,8 +34,8 @@
 7.  页面
     1.  pageview d
     2.  siderbar d
-        1. siderbar 颜色样式优化
-        2. siderbar 状态保持
+        1. siderbar 颜色样式优化 d
+        2. siderbar 状态保持 d
     3.  navbar
         1.  用户登陆状态展示 d
         2.  退出登录等入口 d
