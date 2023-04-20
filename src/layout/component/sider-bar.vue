@@ -11,7 +11,7 @@
         :selected-keys="menuActive"
         @select="select"
       >
-        <template v-for="route in filterRoutes">
+        <template v-for="route in routerList">
           <template v-if="route.children && route.children.length">
             <a-sub-menu
               class="nav-item"
@@ -57,9 +57,10 @@ export default defineComponent({
   },
   setup() {
     const store = useStore();
-    let list = permissionRoutes;
-    console.log("sider...", list);
-    // list = list[4].children;
+
+    // const routes = computed(() => {
+    //   return store.state.routes.routes;
+    // });
 
     // 数据和事件
     let dataMap = reactive({
@@ -68,24 +69,21 @@ export default defineComponent({
       roles: ["1"],
       openKeys: ["/ttt"],
       menuActive: ["dashboard"],
-      filterRoutes: list,
       activeName: "directly",
       handleClick: () => {
         console.log("im being click");
       },
       select: ({ item, key, selectedKeys }) => {
-        console.log(">> ", item, key, selectedKeys);
-        console.log(">>1 ", dataMap.menuActive);
         dataMap.menuActive = [key];
-        console.log(">>2 ", dataMap.menuActive);
       },
-      ...mapState("routes", ["routes", "menu"]),
-      ...mapMutations("setting", ["setAllRoutes", "setPartialRoutes"]),
     });
 
-    // this.setAllRoutes();
+    const routerList = computed(() => {
+      console.log("changerouters: ", store.state.routes.routes);
+      return store.state.routes.routes;
+    });
 
-    return { ...toRefs(dataMap) };
+    return { routerList, ...toRefs(dataMap) };
   },
 });
 </script>
