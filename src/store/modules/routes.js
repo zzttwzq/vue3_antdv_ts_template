@@ -9,7 +9,7 @@
 import { asyncRoutes, constantRoutes, getRouterList, convertRouter, filterRoutes } from '../../utils/router-util'
 
 const state = () => ({
-    menus: [],
+    menus: [{ '1': 1 }],
     routes: [],
 })
 const getters = {
@@ -31,10 +31,13 @@ const actions = {
      * @param {*} { commit }
      * @returns
      */
-    async setRoutes({ commit }) {
-        const finallyRoutes = filterRoutes([...constantRoutes, ...asyncRoutes])
-        commit('setRoutes', finallyRoutes)
-        return [...asyncRoutes]
+    async setRoutes({ commit }, dataRoutes) {
+        // const finallyRoutes = filterRoutes([...constantRoutes, ...asyncRoutes])
+        // commit('setRoutes', finallyRoutes)
+        // return [...asyncRoutes]
+        console.log('>>>', dataRoutes);
+
+        state.routes = dataRoutes;
     },
     /**
      * @author chuzhixin 1204505056@qq.com

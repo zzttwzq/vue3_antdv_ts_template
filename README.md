@@ -7,8 +7,8 @@
 2. vue-router 
    1. 路由配置 d
    2. 默认路由 d
+   4. 网络路由 d
    3. 路由守卫 x
-   4. 网络路由 x
    5. 自动生成路由 
 3. plop 模版
     1.  文档 
@@ -25,17 +25,21 @@
     4.  重定向配置
 5. vuex 配置 
    1. vuex index d
-   2. vuex routes -
-   3. vuex setting
+   2. vuex routes d
+   3. vuex setting 
    4. vuex user
    5. vuex tab...
-6.  vue webpack配置
+6. 主题
+   1. 主题颜色变更 
+   2. 自定义主题
+7.  vue webpack配置
     1.  webpack custom config 
-7.  页面
+8.  页面
     1.  pageview d
     2.  siderbar d
         1. siderbar 颜色样式优化 d
         2. siderbar 状态保持 d
+        3. siderbar 收缩 
     3.  navbar
         1.  用户登陆状态展示 d
         2.  退出登录等入口 d

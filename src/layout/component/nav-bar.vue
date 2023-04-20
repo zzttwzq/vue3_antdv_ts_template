@@ -70,7 +70,8 @@ import { useI18n } from "vue-i18n";
 import { useRoute, useRouter } from "vue-router";
 import Logo from "@/assets/images/home/logo.png";
 import { LogoutOutlined, UserOutlined } from "@ant-design/icons-vue";
-import Icon from '@ant-design/icons-vue';
+import Icon from "@ant-design/icons-vue";
+import { permissionRoutes } from "@/router/permission_routers";
 
 export default defineComponent({
   components: {
@@ -81,10 +82,13 @@ export default defineComponent({
     // SizeSelect,
     LogoutOutlined,
     UserOutlined,
-    Icon
+    Icon,
   },
   setup() {
     const store = useStore();
+
+    console.log(">>> routes", store.state.routes.routes);
+
     const route = useRoute();
     const router = useRouter();
     const { t } = useI18n();
@@ -103,9 +107,13 @@ export default defineComponent({
       },
       logout: () => {
         // useStore().dispatch(UserActionTypes.ACTION_LOGIN_OUT)
-        router.push(`/login?redirect=${route.fullPath}`).catch((err) => {
-          console.warn(err);
-        });
+        // router.push(`/login?redirect=${route.fullPath}`).catch((err) => {
+        //   console.warn(err);
+        // });
+        console.log(">>>change router", store);
+        console.log(">>>change router", permissionRoutes);
+
+        store.commit("routes/setRoutes", permissionRoutes);
       },
     });
     return {
