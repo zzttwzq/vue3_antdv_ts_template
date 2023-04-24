@@ -45,9 +45,7 @@
 
 <script lang="ts">
 import { computed, defineComponent, reactive, toRefs } from "vue";
-import { getCurrentRouters } from "@/utils/router-util";
 import { useStore } from "vuex";
-import { mapState, mapMutations, mapGetters } from "vuex";
 import { permissionRoutes } from "@/router/permission_routers";
 import SidebarLogo from "./sider-bar-logo.vue";
 
@@ -57,10 +55,10 @@ export default defineComponent({
   },
   setup() {
     const store = useStore();
-
-    // const routes = computed(() => {
-    //   return store.state.routes.routes;
-    // });
+    const defaultMenu = "dashboard";
+    store.commit("routes/setRoutes", permissionRoutes);
+    store.commit("routes/setCurrent", defaultMenu);
+    store.commit("routes/setHistoryItem", defaultMenu);
 
     // 数据和事件
     let dataMap = reactive({
@@ -68,14 +66,22 @@ export default defineComponent({
       isCollapse: false,
       roles: ["1"],
       openKeys: ["/ttt"],
-      menuActive: ["dashboard"],
       activeName: "directly",
       handleClick: () => {
         console.log("im being click");
       },
       select: ({ item, key, selectedKeys }) => {
-        dataMap.menuActive = [key];
+        console.log(">>>change item", item);
+        store.commit("routes/setCurrent", key);
+        store.commit("routes/setHistoryItem", key);
+        // dataMap.menuActive = [key];
       },
+    });
+
+    const menuActive = computed(() => {
+      let s = [store.state.routes.current];
+      console.log('??? seleted', s);
+      return s;
     });
 
     const routerList = computed(() => {
@@ -83,7 +89,7 @@ export default defineComponent({
       return store.state.routes.routes;
     });
 
-    return { routerList, ...toRefs(dataMap) };
+    return { menuActive, routerList, ...toRefs(dataMap) };
   },
 });
 </script>
@@ -102,5 +108,18 @@ export default defineComponent({
 .ant-menu-vertical,
 .ant-menu-vertical-left {
   border-right: none;
+}
+
+/deep/ .ant-menu-item::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-right: 3px solid red !important;
+  transform: scaleY(0.0001);
+  opacity: 0;
+  transition: transform 0.15s cubic-bezier(0.215, 0.61, 0.355, 1),
+    opacity 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+  content: "";
 }
 </style>
