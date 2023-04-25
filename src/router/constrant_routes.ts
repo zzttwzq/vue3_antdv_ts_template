@@ -5,7 +5,7 @@ export const localRoutes: Array<RouteRecordRaw> = [
         path: '/login',
         name: '登录页',
         component: () =>
-            import('@/views/login/testPage.vue'),
+            import('@/views/login/LoginPage.vue'),
     },
     {
         path: '/403',

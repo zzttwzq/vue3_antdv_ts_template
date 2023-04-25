@@ -5,10 +5,10 @@
       <a-col :xs="24" :sm="24" :md="12" :lg="10" :xl="6">
         <div class="login-container-form">
           <div class="login-container-hello">hello!</div>
-          <div class="login-container-title"> --{{ $t('back') }}-- 欢迎来到 {{ title }}</div>
+          <div class="login-container-title">---- 欢迎来到 {{ title }}</div>
           <a-form :model="form" @submit="handleSubmit" @submit.prevent>
             <a-form-item>
-              <a-input v-model="form.username" placeholder="Username">
+              <a-input v-model:value="form.username" placeholder="Username">
                 <template v-slot:prefix>
                   <UserOutlined style="color: rgba(0, 0, 0, 0.25)" />
                 </template>
@@ -16,7 +16,7 @@
             </a-form-item>
             <a-form-item>
               <a-input
-                v-model="form.password"
+                v-model:value="form.password"
                 type="password"
                 placeholder="Password"
               >
@@ -39,121 +39,142 @@
       </a-col>
     </a-row>
     <div class="login-container-tips">
-      基于vue{{ dependencies['vue'] }}
+      基于vue{{ dependencies["vue"] }}
       + ant-design-vue
-      {{ dependencies['ant-design-vue'] }}开发
+      {{ dependencies["ant-design-vue"] }}开发
     </div>
   </div>
 </template>
 <script>
-  import { dependencies, devDependencies } from '../../../package.json'
-  import { mapActions, mapGetters } from 'vuex'
-  import { UserOutlined, LockOutlined } from '@ant-design/icons-vue'
+import { dependencies, devDependencies } from "../../../package.json";
+import { defineComponent, toRefs, reactive } from "vue";
+import { UserOutlined, LockOutlined } from "@ant-design/icons-vue";
+import { useRouter } from "vue-router"
 
-  export default {
-    name: 'LoginPage',
-    components: {
-      UserOutlined,
-      LockOutlined,
-    },
-    data() {
-      return {
-        form: {
-          username: '',
-          password: '',
-        },
-        redirect: undefined,
-        dependencies: dependencies,
-        devDependencies: devDependencies,
-      }  
-    },
-    computed: {
-      ...mapGetters({
-        logo: 'settings/logo',
-        title: 'settings/title',
-      }),
-    },
-    watch: {
-      $route: {
-        handler(route) {
-          this.redirect = (route.query && route.query.redirect) || '/'
-        },
-        immediate: true,
+export default defineComponent({
+  components: {
+    UserOutlined,
+    LockOutlined,
+  },
+  setup() {
+    const router = useRouter();
+
+    // 数据和事件
+    let dataMap = reactive({
+      form: {
+        username: "",
+        password: "",
       },
-    },
-    mounted() {
-      console.log(">>> login mounted");
-      this.form.username = 'admin'
-      this.form.password = '123456'
-    },
-    methods: {
-      ...mapActions({
-        login: 'user/login',
-      }),
+      title: "title",
+      dependencies: dependencies,
+      devDependencies: devDependencies,
       handleRoute() {
-        return this.redirect === '/404' || this.redirect === '/403'
-          ? '/'
-          : this.redirect
+        return this.redirect === "/404" || this.redirect === "/403" ? "/" : this.redirect;
       },
       async handleSubmit() {
-
-        console.log('>>>> asdfasdf');
-        console.log('>>>> 写入各种localStorage');
-
-        window.location.href = "https://test.nearhub.cc/draw_page";
         
+        console.log(">>>> asdfasdf");
+        console.log(">>>> 写入各种localStorage");
+
+        // window.location.href = "https://test.nearhub.cc/draw_page";
+
         // await this.login(this.form)
         // await this.$router.push(this.handleRoute())
+
+        router.push('dashboard');
       },
-    },
-  }
+    });
+
+    return { ...toRefs(dataMap) };
+  },
+});
+
+// export default {
+//   name: 'LoginPage',
+//   components: {
+//     UserOutlined,
+//     LockOutlined,
+//   },
+//   data() {
+//     return {
+//       // redirect: undefined,
+//       // dependencies: dependencies,
+//       // devDependencies: devDependencies,
+//     }
+//   },
+//   computed: {
+//     ...mapGetters({
+//       logo: 'settings/logo',
+//       title: 'settings/title',
+//     }),
+//   },
+//   watch: {
+//     $route: {
+//       handler(route) {
+//         this.redirect = (route.query && route.query.redirect) || '/'
+//       },
+//       immediate: true,
+//     },
+//   },
+//   mounted() {
+//     console.log(">>> login mounted");
+//     this.username = 'admin'
+//     this.password = '123456'
+//   },
+//   methods: {
+//     ...mapActions({
+//       login: 'user/login',
+//     }),
+//   },
+// }
 </script>
 <style lang="less">
-  .login-container {
-    width: 100%;
-    height: 100vh;
-    background: url('~@/assets/login_images/login_background.png');
-    background-size: cover;
-    &-form {
-      width: calc(100% - 40px);
-      height: 380px;
-      padding: 4vh;
-      margin-top: calc((100vh - 380px) / 2);
-      margin-right: 20px;
-      margin-left: 20px;
-      background: url('~@/assets/login_images/login_form.png');
-      background-size: 100% 100%;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px 0 rgba(7, 17, 27, 0.06);
-    }
-    &-hello {
-      font-size: 32px;
-      color: #fff;
-    }
-    &-title {
-      margin-bottom: 30px;
-      font-size: 20px;
-      color: #fff;
-    }
-    &-tips {
-      position: fixed;
-      bottom: 20px;
-      width: 100%;
-      height: 40px;
-      color: rgba(255, 255, 255, 0.856);
-      text-align: center;
-    }
-    .ant-col {
-      width: 100%;
-      padding: 0 10px 0 10px;
-    }
-    .ant-input {
-      height: 35px;
-    }
-    .ant-btn {
-      width: 100%;
-      height: 45px;
-      border-radius: 99px;
-    }
+.login-container {
+  width: 100%;
+  height: 100vh;
+  // background: url('~@/assets/images/login_images/login_background.png');
+  background-size: cover;
+  background: black;
+  &-form {
+    width: calc(100% - 40px);
+    height: 380px;
+    padding: 4vh;
+    margin-top: calc((100vh - 380px) / 2);
+    margin-right: 20px;
+    margin-left: 20px;
+    // background: url('~@/assets/images/login_images/login_form.png');
+    background-size: 100% 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 0 rgba(7, 17, 27, 0.06);
   }
+  &-hello {
+    font-size: 32px;
+    color: #fff;
+  }
+  &-title {
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #fff;
+  }
+  &-tips {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    height: 40px;
+    color: rgba(255, 255, 255, 0.856);
+    text-align: center;
+  }
+  .ant-col {
+    width: 100%;
+    padding: 0 10px 0 10px;
+  }
+  .ant-input {
+    height: 35px;
+  }
+  .ant-btn {
+    width: 100%;
+    height: 45px;
+    border-radius: 99px;
+  }
+}
 </style>
