@@ -71,7 +71,6 @@ import { useRoute, useRouter } from "vue-router";
 import Logo from "@/assets/images/home/logo.png";
 import { LogoutOutlined, UserOutlined } from "@ant-design/icons-vue";
 import Icon from "@ant-design/icons-vue";
-import { permissionRoutes } from "@/router/permission_routers";
 
 export default defineComponent({
   components: {
@@ -86,7 +85,6 @@ export default defineComponent({
   },
   setup() {
     const store = useStore();
-
     console.log(">>> routes", store.state.routes.routes);
 
     const route = useRoute();
@@ -110,10 +108,10 @@ export default defineComponent({
         // router.push(`/login?redirect=${route.fullPath}`).catch((err) => {
         //   console.warn(err);
         // });
-        console.log(">>>change router", store);
-        console.log(">>>change router", permissionRoutes);
+        // console.log(">>>change router", store);
 
-        store.commit("routes/setRoutes", permissionRoutes);
+        // console.log('>>> value', router.currentRoute.value);
+
       },
     });
     return {

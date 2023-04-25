@@ -3,7 +3,7 @@
     <SiderBar class="sidebar-container" />
     <div class="main-container">
       <NavBar />
-      <!-- <TabBar /> -->
+      <TabBar />
       <AppManager />
     </div>
   </a-layout>
@@ -63,5 +63,6 @@ export default defineComponent({
   transition: margin-left 0.28s;
   margin-left: @sideBarWidth;
   position: relative;
+  background: white;
 }
 </style>
